@@ -13,6 +13,8 @@ describe('log-viewer.js', () => {
       'init.object.arguments.0.value': 'logFilePath',
       'init.property.name': "value"
     };
+    console.log(logFilePath);
+    
     assert(matchObj(logFilePath, logFilePathMatch), 
       'Are you getting a reference to the logFilePath input field value using `document.getElementById()` to query?');
   });
